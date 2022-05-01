@@ -157,3 +157,12 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+
+.testi-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.blink {
+    animation: 10s blinker linear infinite;
+}
