@@ -52,7 +52,7 @@ h2 {
 /* portfolio */
 .hover-wrapper {
     overflow: hidden;
-    img
+   
 
 {
     transition: .3s ease;
@@ -163,6 +163,22 @@ a {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+
 .blink {
-    animation: 10s blinker linear infinite;
+    animation: blink 2s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
 }
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
