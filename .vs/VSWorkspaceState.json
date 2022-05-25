@@ -4,10 +4,10 @@
     "\\css",
     "\\document",
     "\\img",
-    "\\img\\clients-logo",
     "\\js",
     "\\plugins",
-    "\\scss"
+    "\\scss",
+    "\\vendor"
   ],
   "PreviewInSolutionExplorer": false
 }
